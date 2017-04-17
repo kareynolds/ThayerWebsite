@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        <script src="https://use.fontawesome.com/1663820525.js"></script>
+        <style type="text/css">
+            body {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                font-family: 'Josefin sans', sans-serif;
+            }
+            
+            .container-fluid,
+            .row-fluid {
+                height: inherit;
+            }
+            
+            #home {
+                background: url(teacherbackground.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            
+            h1 {
+                height: 10%;
+                text-align: center;
+                position: relative;
+                top: 40%;
+                margin-top: 0;
+                font-size: 40px;
+                font-style: italic;
+                color: white;
+                font-weight: bold;
+                
+            }
+            
+            #h1-box {
+                border: 1px solid whitesmoke;
+                padding: 7px;
+                box-shadow: 1px 1px 2px 2px;
+                opacity: 0.8;
+                width: 30%;
+                font-family: sans-serif;
+            }
+            
+            #newsletterh1 {
+                font-family: sans-serif;
+                text-align: center;
+                font-weight: bold;
+                margin-top: 30px;
+                margin-bottom: 15px;
+            }
+            
+            #resources {
+                margin-top: 55px;
+            }
+            
+            .contactContainer {
+                text-align: center;
+                width: 100%;
+                margin-top: 80px;
+            }
+            
+            #navbarSupportedContent {
+                margin-left: 20px;
+            }
+            
+            #about {
+                text-align: center;
+                font-family: sans-serif;
+                margin-top: 80px;
+                font-weight: bold;
+            }
+            
+            #aboutText {
+                margin-top: 30px;
+                font-family: 'Josefin sans', sans-serif;
+            }
+            
+            #resourcesTitle {
+                text-align: center;
+            }
+            
+            #contactTitle {
+                font-weight: bold;
+                font-family: sans-serif;
+            }
+            
+            #tableTitle {
+                margin-top: 80px;
+                font-weight: bold;
+                text-align: center;
+                font-family: sans-serif;
+            }
+            
+            .table {
+                max-width: 350px;
+                margin: 0 auto;
+            }
+            
+            .card {
+                font-family: 'Josefin sans', sans-serif;
+            }
+
+            .newsLetterImg {
+                width: 100%;
+            }
+        </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#Home" style="font-weight: bold">Ms. Thayer's Classroom</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#newsLetters">Homework / News Letters</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Ms. Thayer</a>
+                    </li>
+
+                </ul>
+            </div>
+    </nav>
+
+    <div class="container-fluid" id="home">
+        <div class="row-fluid">
+            <h1> <span id="h1-box">Ms. Thayer's Classroom </span></h1>
+        </div>
+
+        <div class="container" id="newsLetters">
+
+            <div class="row">
+                <div class="col-md-10">
+
+                    <h2 id="newsletterh1"><span><i class="fa fa-book" aria-hidden="true"></span></i> Homework & Announcements </h2>
+                    <div id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Week of April 10th: News Letter
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="card-block">
+                                    <img class="newsLetterImg" src="newsLetter1.jpg" alt="April 10th NewsLetter">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ====================week of 27th=======================-->
+
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Week of March 27th: News Letter
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="card-block">
+                                    <img class="newsLetterImg" src="newsLetter2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--===================week of 20th================================ -->
+
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Week of March 20th: News Letter
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="card-block">
+                                    <img class="newsLetterImg" src="newsLetter3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--===================week of 13th================================ -->
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingFour">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Week of March 13th: News Letter
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="card-block">
+                                    <img class="newsLetterImg" src="newsLetter4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--===================week of 8thth================================ -->
+                         <div class="card">
+                            <div class="card-header" role="tab" id="headingFive">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Week of Feb 28th: News Letter
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="card-block">
+                                    <img class="newsLetterImg" src="newsLetter5.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 id="about"> <i class="fa fa-female" aria-hidden="true"></i> About Ms. Thayer! </h3>
+
+                        <p id="aboutText"> Hello and welcome to my site! For those of you interested in who is teaching your children please read on. A born and raised Onalaska Native, I am in my first year teaching 
+                            at Onalaska and my third year teaching 1st grade.  I have two children of my own who also attend Onalaska. Hobbies I enjoy are: hiking, biking, kayaking, gradening and scrapbooking. Feel free
+                            to reach out to me for anything you need!
+                        </p>
+                    </div>
+
+
+                    <h2 id="tableTitle"> Class Schedule </h2>
+
+                    <table class="table table-bordered table-sm">
+                        <thead>
+                            <tr>
+                                <th>Time:</th>
+                                <th><span style="font-weight: bold;"> Activity </span> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">8:15</th>
+                                <td>Morning Routine</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8:25</th>
+                                <td>Walk to Read</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"> 9:10 </th>
+                                <td> Recess </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 9:25 </th>
+                                <td> Reading </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 10:50 </th>
+                                <td> Lunch / Recess</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 11:30 </th>
+                                <td> Read to Self </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 11:50 </th>
+                                <td> Calendar </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 12:05 </th>
+                                <td> Math </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 12:20 </th>
+                                <td> Brain Break </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 12:30 </th>
+                                <td> Math </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 1:15</th>
+                                <td> Snack & Read Aloud</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 1:30 </th>
+                                <td> Specialist </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 2:00 </th>
+                                <td> Recess </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 2:15 </th>
+                                <td> Writing </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 3:00 </th>
+                                <td> Clean up</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"> 3:05 </th>
+                                <td> Dismissal </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+                <div class="col-md-2" id="resources">
+
+                    <h3 id="resourcesTitle"> Resources </h3>
+
+                    <p> For those unfamiliar with the common core cirriculum I have provided a few links to better assist your
+                        child with their development & homework.</p>
+
+                    <ol class="ulId">
+                        <li class="liBack" id="li"><a href="http://wwww.ixl.com" target="_blank"> IXL</a></li>
+                        <li class="liBack" id="li"><a href="http://www.spellingcity.com" target="_blank">SpellingCity</a></li>
+                        <li class="liBack" id="li"><a href="http://www.classdojo.com" target="_blank">Class dojo</a></li>
+                        <li class="liBack" id="li"><a href="https://www.engageny.org" target="_blank">Engage New York</a></li>
+                        <li class="liBack" id="li"><a href="http://www.scholastic.com" target="_blank">Scholastic</a></li>
+                        <li class="liBack" id="li"><a href="https://play.google.com/store/apps/details?id=com.getepic.Epic&hl=en" target="_blank">Epic</a></li>
+                        <li class="liBack" id="li"><a href="https://itunes.apple.com/us/app/mathcubes-addition-subtraction/id864191079?mt=8" target="_blank">MathCubes</a></li>
+                        <li class="liBack" id="li"><a href="https://itunes.apple.com/us/app/monkey-math-school-sunshine/id451287325?mt=8" target="_blank">MonkeyMath (IOS)</a></li>
+                        <li class="liBack" id="li"><a href="https://play.google.com/store/apps/details?id=com.thup.MonkeyMath&hl=en" target="_blank">MonkeyMath (Android) </a></li>
+                        <li class="liBack" id="li"><a href="http://www.starfall.com" target="_blank">Starfall</a></li>
+                    </ol>
+
+                </div>
+                <div class="col-md-10">
+
+                    <footer class="contactContainer">
+                        <h3 id="contactTitle"><i class="fa fa-mobile" aria-hidden="true"></i> Contact </h3>
+                        <hr class="a-y-2" />
+                        <p> You can reach out to me through email: athayer@onysd.wednet.edu or through our Class Dojo App</p>
+                    </footer>
+                </div>
+
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+                crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+                    crossorigin="anonymous"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+                        crossorigin="anonymous"></script>
+</body>
+
+</html>
